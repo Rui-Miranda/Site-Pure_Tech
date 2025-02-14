@@ -1,0 +1,152 @@
+ /* Geral */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Cabeçalho-Logótipo*/
+header .logo a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 30px; 
+    font-weight: bold; 
+    background-color: #007BFF; 
+    padding: 20px 30px; 
+    display: inline-block;
+}
+
+/*Cabeçalho- Botões do cabeçalho- Estilo*/
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 30px;
+}
+
+/*Cabeçalho- Botões do cabeçalho- Cor do botão*/
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/*Cabeçalho- Botões do cabeçalho- Cor Posterior*/
+header nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Secção Intro */
+.intro {
+    text-align: center;
+    padding: 4rem 2rem;
+    background:#f8f9fa;
+    color: #333;
+}
+
+/* Secção Intro- h1 */
+.intro h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+/* Secção Intro- p */
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Secção Intro- Botão */
+.intro .btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background: #ffdd57;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Secção Intro- Botão- Cor Posterior*/
+.intro .btn:hover {
+    background: #ffc107;
+}
+
+/* Lista de Produtos */
+.product-list {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    background: #fff;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+}
+
+.product img {
+    width: 50%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.product p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.product .price {
+    display: block;
+    font-size: 1.2rem;
+    color: #007bff;
+    margin: 0.5rem 0;
+}
+
+.product .btn {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.product .btn:hover {
+    background: #0056b3;
+}
+
+/*Rodapé*/
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 14px
+}
